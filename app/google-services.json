@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "62437114632",
+    "firebase_url": "https://mobihealth-8c197.firebaseio.com",
+    "project_id": "mobihealth-8c197",
+    "storage_bucket": "mobihealth-8c197.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62437114632:android:6503ab55f5bd0d59e022bd",
+        "android_client_info": {
+          "package_name": "com.example.mobihealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62437114632-51383id233rtiu5hr97g0qpan39kosef.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX6Ru5h_LSbUOnvV2j01I4nKWBdCoznMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62437114632-51383id233rtiu5hr97g0qpan39kosef.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
