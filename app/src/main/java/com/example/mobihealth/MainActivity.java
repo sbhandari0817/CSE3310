@@ -20,7 +20,12 @@ public class MainActivity extends AppCompatActivity {
 
         //starting new activites when button is clicked
         //login activities
-
+        login_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent (MainActivity.this, Login.class));
+            }
+        });
 
         //Register activities
         register_button.setOnClickListener(new View.OnClickListener() {
