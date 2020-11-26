@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MobiHealth">
-        <activity android:name=".Mainmenu"></activity>
+        <activity android:name=".Personal_Information"></activity>
+        <activity android:name=".Mainmenu" />
         <activity android:name=".Login" />
         <activity android:name=".Registration" />
         <activity android:name=".MainActivity">
