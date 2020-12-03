@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Health App</string>
+
+    <string-array name="Security_question">
+        <item>What is your mother\'s maiden name? </item>
+        <item>What city were you born? </item>
+        <item>What is the name of your first car? </item>
+        <item>What is the name of your first crush? </item>
+    </string-array>
+    <string-array name="Sex">
+        <item>M</item>
+        <item>F</item>
+    </string-array>
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/relativeLayout1"
+    android:layout_height="match_parent"
+    android:background="@drawable/icondoctor"
+
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgMyHealth"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textSize="40dp"
+        android:src="@drawable/myhealth"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        >
+    </ImageView>
+
+    <EditText
+        android:id="@+id/edLogin_Username"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonshape"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_height="80dp"
+        android:layout_below="@id/imgMyHealth"
+        android:layout_marginTop="100dp"
+        android:padding="10dp"
+        android:drawableStart="@drawable/iconusername"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:textAlignment="center"
+        android:textColorHint="#FFFFFF"
+
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/edLogin_Password"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonshape"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_height="80dp"
+        android:layout_below="@id/edLogin_Username"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/iconlock"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textAlignment="center"
+        android:textColorHint="#FFFFFF"
+
+        >
+    </EditText>
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_below="@id/tvForgetPassword"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:fallbackLineSpacing="true"
+        android:text="LOGIN"
+        android:textSize="30dp"
+        >
+    </Button>
+
+    <TextView
+        android:id="@+id/tvForgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edLogin_Password"
+        android:clickable="true"
+        android:text="Forget Password?"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:layout_marginStart="230dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        />
+    <TextView
+        android:id="@+id/tvRegisterHere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLogin"
+        android:text="Don't Have an Account?\n          Register Here"
+        android:layout_marginTop="30dp"
+        android:textSize="15dp"
+        android:layout_marginStart="10dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imgbackgroundtwo"
+    tools:context=".DietManagement">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvMyDiet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Track your \nDiet Plan"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#1DE9B6"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            />
+
+
+
+        <LinearLayout
+            android:id="@+id/L1"
+            android:layout_below="@id/tvMyDiet"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="0dp"
+
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:layout_marginEnd="10dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_Breakfast"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttontwo"
+                android:text="Breakfast"
+                android:textSize="20dp"
+                >
+            </Button>
+            <EditText
+                android:id="@+id/edBreakfast_cal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Calorie Consumed"
+                android:textAlignment="center"
+                android:paddingStart="-30dp"
+                android:textColorHint="#FFFFFF"
+                android:textSize="25dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/L2"
+            android:layout_below="@+id/L1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_Lunch"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttontwo"
+                android:text="Lunch"
+                android:textSize="20dp"
+                >
+            </Button>
+            <EditText
+                android:id="@+id/edLunch_cal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Calorie Consumed"
+                android:textAlignment="center"
+                android:paddingStart="-30dp"
+                android:textColorHint="#FFFFFF"
+                android:textSize="25dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/L3"
+            android:layout_below="@+id/L2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_Dinner"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttontwo"
+                android:text="Dinner"
+                android:textSize="20dp"
+                >
+            </Button>
+            <EditText
+                android:id="@+id/edDinner_cal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Calorie Consumed"
+                android:textAlignment="center"
+                android:paddingStart="-30dp"
+                android:textColorHint="#FFFFFF"
+                android:textSize="25dp"
+                />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/L3"
+            >
+
+            <TextView
+                android:id="@+id/tvTotal_cal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="TOTAL CALORIE CONSUMED"
+                android:layout_centerHorizontal="true"
+                android:textColor="#76FF03"
+                android:background="@android:color/holo_orange_dark"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tvTotal_DataCalorie"
+                android:layout_below="@+id/tvTotal_cal"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_margin="20dp"
+
+                android:layout_centerHorizontal="true"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tvSetMessage"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_below="@id/tvTotal_DataCalorie"
+                android:textColor="#FFFFFF"
+                android:text="Mesage"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textSize="20dp"
+
+                />
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/L4"
+            android:layout_below="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_Weight"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/buttontwo"
+                android:text="Weight"
+                android:textSize="20dp"
+                >
+            </Button>
+            <EditText
+                android:id="@+id/ed_weight"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Enter your Weight here"
+                android:textAlignment="center"
+                android:paddingStart="-30dp"
+                android:textColorHint="#FFFFFF"
+                android:textSize="20dp"
+                />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/L5"
+            android:layout_below="@+id/L4"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_BMI"
+                android:layout_width="225dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button"
+                android:text="Check BMI"
+                android:textSize="20dp"
+                >
+            </Button>
+            <Button
+                android:id="@+id/btn_Done_diet"
+                android:layout_width="225dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/L4"
+                android:layout_marginTop="10dp"
+                android:text="DONE"
+                android:background="@drawable/button"
+                />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

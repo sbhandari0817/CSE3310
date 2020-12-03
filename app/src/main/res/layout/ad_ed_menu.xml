@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/imgbackgroundtwo"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tvBMI"
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="70dp"
+        android:text="Body Mass Index"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:textColor="#FFFFFF"
+
+
+        />
+
+    <EditText
+        android:id="@+id/edBmi_data"
+        android:layout_below="@+id/tvBMI"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:hint="value"
+        android:paddingTop="20dp"
+        android:textColorHint="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="30dp"
+
+        />
+
+
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_below="@+id/edBmi_data"
+        android:layout_width="330dp"
+        android:layout_height="190dp"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:hint="Message"
+        android:paddingTop="20dp"
+        android:padding="40dp"
+        android:textColorHint="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="30dp"
+
+        />
+</RelativeLayout>
+
+
+
+
+

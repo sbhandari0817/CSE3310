@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/iconmedicine"
+    tools:context=".NotificationActivity">
+
+    <TextView
+        android:id="@+id/tvCurrentDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:fallbackLineSpacing="true"
+        android:text=""
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:paddingStart="10dp"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_below="@+id/tvCurrentDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="#EF0404"
+        android:fallbackLineSpacing="true"
+        android:text="Did you take your medicine today?"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:paddingStart="10dp"
+        >
+    </TextView>
+
+
+    <Button
+        android:id="@+id/btnYes"
+        android:layout_below="@id/tvQuestion"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttontwo"
+        android:fallbackLineSpacing="true"
+        android:text="Yes, I have."
+        android:textSize="20dp"
+        android:paddingStart="10dp"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/btnNo"
+        android:layout_below="@id/btnYes"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/buttontwo"
+        android:fallbackLineSpacing="true"
+        android:text="No, I haven't."
+
+        android:textSize="20dp"
+        >
+    </Button>
+
+</RelativeLayout>

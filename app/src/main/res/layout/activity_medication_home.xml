@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/relativeLayout1"
+    android:layout_height="match_parent"
+    android:background="@drawable/imgbackgroundtwo"
+
+
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/imgMedication"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/iconmedication"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        >
+    </ImageView>
+    <TextView
+        android:id="@+id/tvMedication"
+        android:layout_below="@+id/imgMedication"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="40dp"
+        android:text="MEDICATION"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:layout_marginTop="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        >
+    </TextView>
+    <Button
+        android:id="@+id/btnAddMedication"
+        android:layout_below="@id/tvMedication"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttontwo"
+        android:fallbackLineSpacing="true"
+        android:text="Add Medication"
+        android:textSize="20dp"
+        android:paddingStart="10dp"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/btnUpdateMedication"
+        android:layout_below="@id/btnAddMedication"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/buttontwo"
+        android:fallbackLineSpacing="true"
+        android:text="Update Medication"
+
+        android:textSize="20dp"
+        >
+    </Button>
+    <Button
+        android:id="@+id/btnViewMedication"
+        android:layout_below="@id/btnUpdateMedication"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/buttontwo"
+        android:fallbackLineSpacing="true"
+        android:text="View Medication"
+        android:textSize="20dp"
+        >
+    </Button>
+    <Button
+        android:id="@+id/btnMenuMedication"
+        android:layout_below="@id/btnViewMedication"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/buttontwo"
+        android:fallbackLineSpacing="true"
+        android:text="Main Menu"
+        android:textSize="20dp"
+        >
+    </Button>
+
+
+</RelativeLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/relativeLayout1"
+    android:layout_height="match_parent"
+    android:background="@drawable/imgbackgroundtwo"
+
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgMyHealth"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="40dp"
+        android:src="@drawable/myhealth"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        >
+    </ImageView>
+
+
+    <Button
+        android:id="@+id/btnPer_Info"
+        android:layout_below="@id/imgMyHealth"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttontwo"
+        android:fallbackLineSpacing="true"
+        android:text="Personal information"
+        android:textSize="20dp"
+        android:paddingStart="10dp"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/btnVital"
+        android:layout_below="@id/btnPer_Info"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttontwo"
+        android:fallbackLineSpacing="true"
+        android:text="Vital Sign"
+
+        android:textSize="20dp"
+        >
+    </Button>
+    <Button
+        android:id="@+id/btnMedication"
+        android:layout_below="@id/btnVital"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttontwo"
+        android:fallbackLineSpacing="true"
+        android:text="Medication"
+        android:textSize="20dp"
+        >
+    </Button>
+    <Button
+        android:id="@+id/btnDiet"
+        android:layout_below="@id/btnMedication"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttontwo"
+        android:fallbackLineSpacing="true"
+        android:text="Diet"
+        android:textSize="20dp"
+        >
+    </Button>
+    <Button
+        android:id="@+id/btnMonitoring"
+        android:layout_below="@id/btnDiet"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttontwo"
+        android:fallbackLineSpacing="true"
+        android:text="Monitoring"
+        android:textSize="20dp"
+        >
+    </Button>
+    <Button
+        android:id="@+id/btnCommunication"
+        android:layout_below="@id/btnMonitoring"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttontwo"
+        android:fallbackLineSpacing="true"
+        android:text="Communication"
+        android:textSize="20dp"
+        >
+    </Button>
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_below="@id/btnCommunication"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttontwo"
+        android:fallbackLineSpacing="true"
+        android:text="Search"
+        android:textSize="20dp"
+        >
+    </Button>
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_below="@id/btnSearch"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:fallbackLineSpacing="true"
+        android:text="Log Out"
+        android:textSize="20dp"
+        >
+    </Button>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
